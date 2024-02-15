@@ -1,5 +1,5 @@
 def call(Map pipelineParams){
-def projectName = pipelineParams.ecrRepoName
+def projectName = pipelineParams.DockerHubRepoName
 
 pipeline {
  agent any

@@ -4,8 +4,8 @@ def projectName = pipelineParams.DockerHubRepoName
 pipeline {
  agent any
   environment {
-    registry = "ananthdevulapalli/${projectName}"
-    registryCredential = 'docker'
+    registry = "vinay075/${projectName}"
+    registryCredential = 'vinay075'
     dockerImage = ''
   }
   stages {

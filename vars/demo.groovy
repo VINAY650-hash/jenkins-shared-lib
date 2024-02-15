@@ -1,4 +1,4 @@
 def call ()
 {
-    echo "demo groovy"
+    echo "Hello All this is Jenkins shared library"
 }
